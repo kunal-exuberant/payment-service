@@ -1,6 +1,6 @@
 package transaction.models;
 
-public enum ReceiverTransactionState {
+public enum ReceiverTransactionState{
     RECEIVED,
     ACK_SENT,
     COMMIT_REQUEST,
