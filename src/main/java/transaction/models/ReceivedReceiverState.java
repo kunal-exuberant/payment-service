@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class ReceivedReceiverState extends State {
 
-    private static int RECEIVER_TRANSACATION_ID = 0;
+    private static int RECEIVER_TRANSACTION_ID = 0;
 
 
     public void performAction() throws Exception{
@@ -17,6 +17,6 @@ public class ReceivedReceiverState extends State {
     }
 
     public int generateReceiverTransactionId(){
-        return ++RECEIVER_TRANSACATION_ID;
+        return ++RECEIVER_TRANSACTION_ID;
     }
 }
